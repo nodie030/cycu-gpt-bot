@@ -85,7 +85,7 @@ def handle_message(event):
     response = client.chat.completions.create(
         model="gpt-3.5-turbo",
         messages=messages,
-        temperature=0.3,
+        temperature=0.1,
         max_tokens=800,
     )
 
